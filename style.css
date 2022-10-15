@@ -1,0 +1,30 @@
+body{
+
+    background-color: aqua;
+
+}
+.Login{  margin: auto;
+
+width: 50%;
+    background-color: aliceblue;
+    text-align: center;
+    margin-top: 200px;
+    padding: 10px 0px 40px 0px;
+}
+input{
+width: 300px;
+padding: 10px;
+margin:2px ;
+box-sizing: border-box;
+}
+input[type=submit]{
+
+background-color: rgb(153, 133, 51);
+color: wheat;
+font-size: 20px;
+
+}
+p{margin:0px;
+padding: 0px;
+
+}

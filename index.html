@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>login page
+
+    </title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="Login">
+
+            <h1>Login</h1>
+            <form action="" onsubmit="return validation()">
+
+    
+                <input type="text" placeholder="user" id="user" value=""><br>
+                <p id="error" style="color:red"></p>
+
+                <input type="number" placeholder="number"  id="number" value=""><br>
+                <p id="mobile" style="color:red"></p>
+                
+
+                <input type="submit" >
+
+
+
+
+
+
+
+            </form>
+
+
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+    <script>
+
+
+function validation(){
+    let user = document.getElementById("user");
+
+    let number = document.getElementById("number");
+
+
+
+
+if(user.value== ""){
+document.getElementById("error").innerHTML="user name is empty " ;
+
+}
+
+  else if("user.value.lenght <3"){
+
+document.getElementById("error").innerHTML="user name requre min 3 char. " ;
+
+
+}
+
+if( number.value== ""){
+
+document.getElementById("mobile").innerHTML="mobile number is empty " ;
+
+
+
+}
+
+
+    else if( "number.value.lenght <10" ){
+
+document.getElementById("mobile").innerHTML="plase inter 10 digit of mo. " ;
+
+
+}
+
+  else if ( "number.value.lenght >10" ){
+
+document.getElementById("mobile").innerHTML="plase inter 10 digit of mo. " ;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+return false;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>
